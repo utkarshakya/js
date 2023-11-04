@@ -1,2 +1,2 @@
 # JavaScript
-My JavaScript Learning Series
+JavaScript Learning Docs
