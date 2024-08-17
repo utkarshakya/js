@@ -1,13 +1,9 @@
-# JavaScript
-JavaScript Learning Docs For Beginners.
+# JavaScript Learning Docs For Beginners
 
-    1. It contains all the topic you required to build something.
+* **It contains all the topic you required to build something.**
 
-    2. Every is pratical here in this repository.
+* **Every is pratical here in this repository.**
 
-    3. Required theory is witten in the comments or I provide a link to the references in the js file.
+* **Required theory is witten in the comments or I provide a link to the references in the js file.**
 
-
-My name is `Utkarsh Shakya`.
-
-Know More : https://www.utkarshakya.rf.gd/
+> _My name is Utkarsh Shakya. Click [here](https://www.utkarshakya.rf.gd) to know more (-:_
