@@ -1,4 +1,4 @@
-let name = "Samentha";
+let name = "Access";
 let age = 35;
 
 // This is how I am writting a variable while printing its value with string, simply using

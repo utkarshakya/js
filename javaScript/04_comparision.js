@@ -5,9 +5,9 @@ console.log(4 < 8); // Its normal we simply get true
 
 console.log(null < 0); // these all are depend on the operator and the implicit conversion
 console.log(null <= 0); // the equality check (==) operator and other comparision operator work differently
-console.log(null == 0); // operators like <,>,<= and >= converts null to zero but == works differently
+console.log(null == 0); // operators like <,>,<= and >= converts null to zero but == works differently treat null as null.
 
-// If case of undefined things also changes.
+// If case of undefined things also changes (undefined is not converted to any datatype while comparision in most cases).
 // We will learn about them as we do projects.
 
 // There is one more comparision operator : strict check ===
