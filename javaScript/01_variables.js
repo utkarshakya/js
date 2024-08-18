@@ -1,10 +1,13 @@
+// Like any other language variables are used to store values.
+// They can be defind by const (for constant value), let or var keyword.
+
 const accountID = 3324
 let accountEmail = "utkarsh@gmail.com"
 var accoutnPassword = "34jf422" // WE don't use var now days due to its globle scope.
 accountCity = "Kolkata" // this one is worst way of reserving a memory with some value and variable name.
 let accountState // this will have an undefined value. See the output
 
-// accountID = 3323 // this is not possible because this one is constant.
+// accountID = 3323 // this is not possible because this one is constant variable.
 accountEmail = "king@gmail.com"
 accoutnPassword = "1221agrs"
 accountCity = "Bangaluru"

@@ -11,4 +11,5 @@ console.log(`Hello My Name Is ${name} And I Am ${age} Years Old.`);
 // Although output is same for both but this is good practice.
 
 // ********** ****************************** **********
-// THERE ARE MANY METHOD OF STRING THAT WE CAN USE, Check mdn.
+// THERE ARE MANY METHOD OF STRING THAT WE CAN USE:
+//
