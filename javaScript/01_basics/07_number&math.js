@@ -98,7 +98,7 @@ console.log(r1)
 console.log(r2)
 */
 
-// TO GET A NUMBER BETWEEN AN SPECIFIED RANGE USE THE FORMULA GIVEN BELOW:
+// TO GET A INTEGER BETWEEN AN SPECIFIED RANGE USE THE FORMULA GIVEN BELOW:
 // (Math.floor(Math.random() * (max - min + 1)) + min)
 // This will give you the number between min and max (both inclusive).
 // Here is a simple example.
@@ -106,5 +106,7 @@ let min = 5
 let max = 10
 console.log(`\n--- Get A Random Number Between 5 To 10 ---`)
 console.log(Math.floor(Math.random() * (max - min + 1)) + min)
+
+// NOTE: To Get Floating-Point Numbers Use This --> (Math.random()*(max-min)+min)
 
 // THAT'S IT WE HAVE DONE WITH THE MATHS AND NUMBER HERE.
