@@ -1,3 +1,7 @@
+// UNCOMMENT THE SPECIFIC MULTILINE COMMENT TO SEE THE OUTPUT, BY DEFAULT LAST ONE RUNS.
+
+
+// SOME POINTS TO BE REMEMBERED:
 // Like String Numbers can also be defined as given below
 // let score = new Number(8)
 // And in simple way like this --> let score = 2939
