@@ -59,15 +59,15 @@ console.log(balance.toPrecision(6))
 // This happens because it not only works on digits after decimal but it works on whole value.
 
 
-// --- --- 4. toLocalString() --- ---
+// --- --- 4. toLocaleString() --- ---
 let price = 1000000
 console.log(`\n--------- Original Number ---------`)
 console.log(price)
-console.log(`--------- toLocalString() Method ---------`)
+console.log(`--------- toLocaleString() Method ---------`)
 console.log(price.toLocaleString('en-IN'))
 console.log(price.toLocaleString())
 
-// --- toLocalString() Method Description ---
+// --- toLocaleString() Method Description ---
 // Returns a string containing commas which we add in prices.
 // By default it do according to us system, but we can define in argument to use other see first example output has Indian system.
 */
