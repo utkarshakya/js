@@ -89,9 +89,22 @@ console.log(Math.floor(2.89)) // Returns greatest integer less than or equals to
 console.log(Math.min(3, 4, 5, 6, 1.2, 2.5)) // Returns minimum value.
 console.log(Math.max(3, 4, 5, 3.34, 5.23, 8)) // Returns maximum value.
 */
-// --- Math.random Method ---
+
+// --- --- Math.random() Method --- ---
+/*
 let r1 = Math.random() // Returns value between 0 and 1.
-let r2 = r1*10
+let r2 = r1 * 10
 console.log(r1)
 console.log(r2)
-// To get a number between an specified range use this formula. To be continue...
+*/
+
+// TO GET A NUMBER BETWEEN AN SPECIFIED RANGE USE THE FORMULA GIVEN BELOW:
+// (Math.floor(Math.random() * (max - min + 1)) + min)
+// This will give you the number between min and max (both inclusive).
+// Here is a simple example.
+let min = 5
+let max = 10
+console.log(`\n--- Get A Random Number Between 5 To 10 ---`)
+console.log(Math.floor(Math.random() * (max - min + 1)) + min)
+
+// THAT'S IT WE HAVE DONE WITH THE MATHS AND NUMBER HERE.
