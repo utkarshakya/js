@@ -15,5 +15,3 @@ console.log("3" == 3); // This will give true, because of implicit conversion.
 console.log("3" === 3); // This will give false, because (===) operator check datatype as well.
 
 // WE ALWAYS TRY TO AVOID TO COMPARE OPERANTS OF DIFFERENT DATA TYPES FOR CLEAN AND BETTER CODE.
-
-// ALTHOUGH 

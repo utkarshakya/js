@@ -1,13 +1,11 @@
 // UNCOMMENT THE SPECIFIC MULTILINE COMMENT TO SEE THE OUTPUT, BY DEFAULT LAST ONE RUNS.
 
-
 // SOME POINTS TO BE REMEMBERED:
 // Like String Numbers can also be defined as given below
 // let score = new Number(8)
 // And in simple way like this --> let score = 2939
 // but the number defined using new keyword is treated as an number object
 // because that's what the new keyword does i.e. make objects.
-
 
 /*
 // --- --- --- SOME PROPERTIES AND METHODS OF NUMBERS --- --- ---
@@ -72,7 +70,6 @@ console.log(price.toLocaleString())
 // By default it do according to us system, but we can define in argument to use other see first example output has Indian system.
 */
 
-
 // --- --- --- METHODS AND PROPERTIES OF MATH OBJECT IN JAVASCRIPT --- --- ---
 
 /*
@@ -102,10 +99,10 @@ console.log(r2)
 // (Math.floor(Math.random() * (max - min + 1)) + min)
 // This will give you the number between min and max (both inclusive).
 // Here is a simple example.
-let min = 5
-let max = 10
-console.log(`\n--- Get A Random Number Between 5 To 10 ---`)
-console.log(Math.floor(Math.random() * (max - min + 1)) + min)
+let min = 5;
+let max = 10;
+console.log(`\n--- Get A Random Number Between 5 To 10 ---`);
+console.log(Math.floor(Math.random() * (max - min + 1)) + min);
 
 // NOTE: To Get Floating-Point Numbers Use This --> (Math.random()*(max-min)+min)
 

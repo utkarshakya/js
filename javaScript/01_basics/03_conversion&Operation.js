@@ -1,7 +1,5 @@
 // Uncomment the specific multiline comment to see the output.
 
-
-
 // ****** CONVERSIONS *******
 
 /*
@@ -25,8 +23,6 @@ console.log("Value of n if c = null and n = Boolean(c): " + n);
 */
 
 // We have explicit type conversion funcion of all data types except null and undefined.
-
-
 
 // ****** OPERATIONS *******
 
