@@ -53,7 +53,7 @@ console.log(Math.floor(timeStamp/1000)); // this will make it in seconds, we use
 
 // --- --- toLocalString() --- ---
 // We Can Also Customize This Method To Get Specific Output
-console.log(myDate.toLocaleString('default', {dateStyle:"full"}))
-console.log(myDate.toLocaleString('en-in', {dateStyle:"short"}))
+console.log(myDate.toLocaleString("default", { dateStyle: "full" }));
+console.log(myDate.toLocaleString("en-in", { dateStyle: "short" }));
 
 // WE HAVE DONE WITH DATES AND TIME HERE, WE'LL EXPLAIN OTHER THINGS LATER IF REQUIRED.
