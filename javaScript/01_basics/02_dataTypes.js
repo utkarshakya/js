@@ -57,7 +57,7 @@ console.log(`Type of heroes = ${typeof heroes} \n`);
 let fan = function () {
   console.log("Spider-Men is a fan of Captain America");
 }; // This is a function (specifically an Anonymous Function)
-fan(); // we call the function
+fan(); // here we call a function
 console.log(`Type of fan = ${typeof heroes} \n`);
 
 // You can see in the output that datatype of Array, Object and Function

@@ -38,7 +38,7 @@ console.log(2 ** 3); // Exponent
 
 /*
 // Basic String Operations
-console.log("Hello" + " Moto"); // concatination
+console.log("Hello" + " Moto"); // Concatination
 // console.log("Ram"*2); // Replication not allowed
 */
 

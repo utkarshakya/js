@@ -68,7 +68,7 @@ console.log(phrase.replace(/-/g, " ")); // ***IMPORTANT***
 // In reguler expression we can use flags, the g flag used after the expression is for global
 // search, this will replace all occurances of a specifed expression.
 // There are other flags like i is used to make the expression case-insensitive.
-// Check this docs on mdn to know more: https://rb.gy/w06ejd
+// Check this docs on mdn to know more --> https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_expressions#advanced_searching_with_flags
 
 console.log("\n--------- INCLUDES ---------");
 console.log(phrase.includes("Amigo"));
@@ -94,4 +94,4 @@ console.log(newString.trimEnd());
 // trimStart() will remove leading white spaces and line terminators only.
 // trimEnd() will remove trailing white spaces and line terminators only.
 
-// LEARN MORE ABOUT STRING METHODS FROM MDN DOCS: https://rb.gy/d5m8qg
+// LEARN MORE ABOUT STRING METHODS FROM MDN DOCS --> https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String#instance_methods

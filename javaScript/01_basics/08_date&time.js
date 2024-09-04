@@ -2,7 +2,7 @@
 
 // NOTE: Javascript TC39 is working on Temporal, a new Date/Time API.
 // TC39 working to make it a global object but for now Date object is used, in future it change.
-// Check this to know more --> http://rb.gy/lste6u
+// Check this to know more --> https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date
 
 const myDate = new Date();
 // This is how simply define a data, this will give my current data and time.
