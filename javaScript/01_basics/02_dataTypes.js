@@ -1,4 +1,4 @@
-// Previously js don't have classes, modules and other new features but now it has all and to treat our code as of new standereds we use "use strict"
+// Previously js don't have classes, modules and other new features but now it has all and to treat our code as of new standards we use "use strict"
 "use strict"; // treat all JS code as newer version of code.
 
 // alert("Hello") // this one is a browser function we can't use it with node.js
@@ -40,14 +40,14 @@ console.table([
 // ------------------------ Non-Primitive Data Types -------------------------
 // Arrays, Objects, Functions
 
-let data = ["Gome", "34th Street Pune, 442132", 546, Symbol(89)]; // This an Array
+let data = ["Gore", "34th Street Pune, 442132", 546, Symbol(89)]; // This an Array
 console.log(data);
 console.log(`Type of data = ${typeof data} \n`);
 
 let heroes = {
   0: "Scarlet Witch",
   1: "Black Panther",
-  2: "Wolvorine",
+  2: "Wolverine",
   3: "Deadpool",
 }; // This is an object
 console.log(heroes);
@@ -65,4 +65,4 @@ console.log(`Type of fan = ${typeof heroes} \n`);
 // That's why we sometimes call the Non-Primitive datatypes as Objects.
 
 // There are many type and ways we can use and define the array, objects and functions.
-// We will learn about them with time and practice in the upcomming repos.
+// We will learn about them with time and practice in the upcoming repos.

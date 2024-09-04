@@ -1,7 +1,6 @@
 // NOTE: Uncomment The Specific Multi-Line Comment Section To See The Output. By Default Last Section Runs.
 
 // READ THIS MDN DOCS FOR REFERENCE --> https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array
-
 // In Simple Words An Array Is A Collection Values.
 // Javascript Arrays Are Resizable And Can Contain A Mix Of Different Data Types.
 // Note: Javascript Arrays Are Not Associative Like The String Does, Means
@@ -12,6 +11,7 @@
 const myArray = [3, 4, 5, 7];
 const heros = ["Wanda", "Hulk", "Spider-Men", "Sang-Chi", "Makkari"];
 // console.log(heros.length); // Used to get the length of the array. It  is the property of array.
+
 
 /*
 // Since Array Is A Object In Javascript. So Can Also Define It As Given Below.
@@ -26,7 +26,11 @@ const villains = new Array(
 console.log(`${heros[3]} vs ${villains[3]}`);
 */
 
+
+
 // --- --- --- METHODS IN ARRAYS --- --- ---
+
+
 
 /*
 // --- --- General Methods --- ---
@@ -73,6 +77,8 @@ console.log(myArray.join("-"));
 // If separators is not given it'll simple converts the array to string as it is.
 */
 
+
+
 // --- --- Slice() & Splice() Method --- ---
 
 console.log(`\n--- Original Array ---`);
@@ -100,5 +106,7 @@ console.log(heros);
 // See the example output to make it clear.
 
 // REMEMBER splice() METHOD AFFECT THE ORIGINAL ARRAY BUT SLICE() DOESN'T.
+
+
 
 // --- WE HAVE DONE WITH THE METHODS IN ARRAY, THIS IS A PART 1 WE'LL SEE YOU IN THE NEXT REPO. ---

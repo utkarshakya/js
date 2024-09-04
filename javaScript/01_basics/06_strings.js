@@ -4,8 +4,8 @@
 let name = "Access";
 let age = 35;
 
-// This is how I am writting a variable while printing its value with string, simply using
-// concatination but this is old way and can some time not very clean and readable.
+// This is how I am writing a variable while printing its value with string, simply using
+// concatenation but this is old way and can some time not very clean and readable.
 console.log("Hello My Name Is " + name + " And I Am " + age + " Years Old.");
 
 // So now days we use `` (Backticks) to write such things as give below
@@ -21,7 +21,7 @@ console.log(`\nLength of ${string} = ${string.length}`);
 // +++++++++++++++ SOEM IMPORTANT METHODS OF STRINGS +++++++++++++++++
 
 const phrase = new String("-Hola-Amigo-!"); // This one of the way to define a string using new keyword.
-// This will treat the string as an object and provide some additional funcionalities.
+// This will treat the string as an object and provide some additional functionalities.
 
 console.log("\n--------- ORIGINAL STRING ---------");
 console.log(phrase);
@@ -43,30 +43,30 @@ console.log(phrase.substring(0, 5));
 
 console.log(phrase.slice(0, 5));
 console.log(phrase.slice(-6, -1));
-// Similar to substirng additionally we can use negitive index here.
+// Similar to substring additionally we can use negative index here.
 
 console.log("\n--------- INDEX OF SPECIFIC CHARACTER ---------");
 console.log(phrase.indexOf("-"));
 console.log(phrase.indexOf("A"));
 console.log(phrase.indexOf("a"));
-// Returns the index of the specific charater.
-// If the given character present at many places in string it'll return the index of its first occurance.
+// Returns the index of the specific character.
+// If the given character present at many places in string it'll return the index of its first occurrence.
 // Also note that this method is case-sensitive.
 
 console.log("\n--------- CHARACTER AT SPECIFIC INDEX ---------");
 console.log(phrase.charAt(6));
 console.log(phrase.charAt(1));
-// Returns the character at sepecific index.
+// Returns the character at specific index.
 
 console.log("\n--------- REPLACE ---------");
 console.log(phrase.replace("-", " "));
 console.log(phrase.replace(/-/g, " ")); // ***IMPORTANT***
 // Returns the string after replacing the specific character or substring from the string.
-// Note it method will not replace all occurances of a specific chracter or substring.
+// Note it method will not replace all occurrences of a specific character or substring.
 // Above first example '-' is replaced by an space ' ' but only the first one, see the output.
-// In the second example we use something called a Reguler Expression as /expression/.
-// In reguler expression we can use flags, the g flag used after the expression is for global
-// search, this will replace all occurances of a specifed expression.
+// In the second example we use something called a Regular Expression as /expression/.
+// In regular expression we can use flags, the g flag used after the expression is for global
+// search, this will replace all occurrences of a specified expression.
 // There are other flags like i is used to make the expression case-insensitive.
 // Check this docs on mdn to know more --> https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_expressions#advanced_searching_with_flags
 
@@ -79,7 +79,7 @@ console.log(phrase.includes("ping"));
 console.log("\n--------- SPLIT ---------");
 console.log(phrase.split("-", 2));
 console.log(phrase.split("-"));
-// Returns an array of values splited by a given character known as sperator.
+// Returns an array of values splitted by a given character known as separator.
 // We can also limit the values like we did in the first example above
 
 let newString = "   Hola \n\n";

@@ -47,8 +47,8 @@ console.log(myCreatedDate.toString());
 /*
 // --- --- Some More Concepts --- ---
 let timeStamp = Date.now();
-console.log(timeStamp); // this will return current date in miliseconds
-console.log(Math.floor(timeStamp/1000)); // this will make it in seconds, we use floor funtion to avoid decimal numbers.
+console.log(timeStamp); // this will return current date in milliseconds
+console.log(Math.floor(timeStamp/1000)); // this will make it in seconds, we use floor function to avoid decimal numbers.
 */
 
 // --- --- toLocalString() --- ---

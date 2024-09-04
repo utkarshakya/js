@@ -26,7 +26,7 @@ console.log(score.toString(6)) // Converts to a number system with base 6.
 // toString() method takes one argument, which is radix. And this radix is simply tell the base of the number
 // that we are converting into string, by default it is 10 (used for decimal).
 // NOTE: if we specify a radix of one number-system to a number of another number-system then it implicitly converts
-// the number to the number-system we specifed in radix and then make it string, as you can see in 2nd example above.
+// the number to the number-system we specified in radix and then make it string, as you can see in 2nd example above.
 // REMEMBER: radix ranges from 2 to 36.
 
 
