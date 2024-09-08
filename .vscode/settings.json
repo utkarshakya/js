@@ -8,8 +8,12 @@
         "Makkari",
         "Moto",
         "Shakya",
+        "stackoverflow",
         "Thanos",
         "Ultron",
         "Utkarsh"
+    ],
+    "cSpell.ignoreWords": [
+        "Galactus"
     ]
 }
