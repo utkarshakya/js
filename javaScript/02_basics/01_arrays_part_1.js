@@ -27,10 +27,7 @@ console.log(`${heros[3]} vs ${villains[3]}`);
 */
 
 
-
 // --- --- --- METHODS IN ARRAYS --- --- ---
-
-
 
 /*
 // --- --- General Methods --- ---
@@ -78,7 +75,6 @@ console.log(myArray.join("-"));
 */
 
 
-
 // --- --- Slice() & Splice() Method --- ---
 
 console.log(`\n--- Original Array ---`);
@@ -106,7 +102,6 @@ console.log(heros);
 // See the example output to make it clear.
 
 // REMEMBER splice() METHOD AFFECT THE ORIGINAL ARRAY BUT SLICE() DOESN'T.
-
 
 
 // --- WE HAVE DONE WITH THE METHODS IN ARRAY, THIS IS A PART 1 WE'LL SEE YOU IN THE NEXT REPO. ---
