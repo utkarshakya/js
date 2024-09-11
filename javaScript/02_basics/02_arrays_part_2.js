@@ -1,4 +1,4 @@
-// Uncomment The Specific Multi-Line Comment To See The Output, By Default Last One Runs.
+// NOTE: Uncomment The Specific Multi-Line Comment To See The Output, By Default Last One Runs.
 
 // --- --- --- MORE ON ARRAY --- --- ---
 
@@ -48,8 +48,6 @@ let num2 = 78;
 console.log(Array.of("Amigo", 34, 381, "Galactus", num1, num2));
 // See the output to get them all.
 
-
-
 // REMEMBER:
 // Instance Methods & Properties: Called on instances of the object.
 // Static Methods & Properties: Called on the constructor itself.
@@ -58,4 +56,4 @@ console.log(Array.of("Amigo", 34, 381, "Galactus", num1, num2));
 // From This Stackoverflow Answer. This Will Make Things Clear, Link Is Give Below:
 // https://stackoverflow.com/questions/50251894/javascript-static-method-vs-instance-method
 
-// --- NOW WE HAVE DONE WITH ARRAYS ---
+// --- NOW WE HAVE DONE WITH ARRAYS HERE ---

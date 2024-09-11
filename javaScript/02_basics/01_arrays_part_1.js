@@ -1,4 +1,4 @@
-// NOTE: Uncomment The Specific Multi-Line Comment Section To See The Output. By Default Last Section Runs.
+// NOTE: Uncomment The Specific Multi-Line Comment To See The Output. By Default Last One Runs.
 
 // READ THIS MDN DOCS FOR REFERENCE --> https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array
 // In Simple Words An Array Is A Collection Values.
@@ -104,4 +104,4 @@ console.log(heros);
 // REMEMBER splice() METHOD AFFECT THE ORIGINAL ARRAY BUT SLICE() DOESN'T.
 
 
-// --- WE HAVE DONE WITH THE METHODS IN ARRAY, THIS IS A PART 1 WE'LL SEE YOU IN THE NEXT REPO. ---
+// --- WE HAVE DONE WITH THE METHODS IN ARRAY, THIS IS A PART 1 WE'LL SEE YOU IN THE NEXT ONE ---
