@@ -21,7 +21,6 @@ let obj2 = {
 };
 
 // --- --- MERGING OBJECTS --- ---
-
 /*
 // --- assign() Method ---
 const mergedObject = Object.assign({}, obj1, obj2);
