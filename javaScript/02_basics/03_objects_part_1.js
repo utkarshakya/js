@@ -19,7 +19,7 @@ const user = {
 // Here --> {key: value, .....} is the syntax.
 
 /*
-// --- There Are Two Ways To Access The Object. ---
+// --- TWO WAYS TO ACCESS AN OBJECT ---
 // 1. Dot Notation
 console.log(user.name);
 
@@ -31,7 +31,7 @@ console.log(typeof(user['Full Address']));
 */
 
 /*
-// --- Changing Values Of Object. ---
+// --- CHANGING VALUES OF OBJECT ---
 user.email = 'samantha@smantha.com';
 console.log(user.email);
 */
