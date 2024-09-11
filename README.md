@@ -6,8 +6,8 @@
 
 - **This repository contains all basics to build a good projects.**
 
-- **Although everything is documented in the form of .js files**
+- **Everything is documented in the form of .js files**
 
-- **Some required theory is witten in the comments.**
+- **And required theory is witten in the comments.**
 
 > _Click [here](https://www.utkarshakya.rf.gd) to know more about me... (-:_
