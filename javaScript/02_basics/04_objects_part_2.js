@@ -1,7 +1,6 @@
 // NOTE: Uncomment The Specific Multi-Line Comment To See The Output, By Default Last One Runs.
 
 // Now We See The Object Declaration Using Constructor (Also Know as Singleton Object).
-
 /*
 const hero = new Object(); // This will create empty object.
 hero.name = 'Kingpin';
@@ -21,7 +20,7 @@ let obj2 = {
     4: 'd'
 };
 
-// --- --- Merging Objects --- ---
+// --- --- MERGING OBJECTS --- ---
 
 /*
 // --- assign() Method ---
@@ -40,5 +39,6 @@ const obj3 = {...obj1, ...obj2};
 console.log(obj3);
 // This spread operator also do the same thing, we have talked about it in arrays.
 // And we don't use assign() method in most cases, spread syntax is used mostly.
+
 
 // --- WE HAVE DONE WITH PART, SEE YOU IN THE NEXT ONE ---
