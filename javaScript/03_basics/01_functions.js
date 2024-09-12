@@ -1,4 +1,4 @@
-
+// NOTE: Uncomment The Specific Multi-Line Comment To See The Output, By Default Last One Runs.
 
 // --- HERE ARE SOME WAYS OF USING A FUNCTION ---
 /*
