@@ -1,3 +1,5 @@
+// NOTE: Uncomment The Specific Multi-Line Comment To See The Output, By Default Last One Runs.
+
 /*
 // --- Let's see one keyword namely 'this' ---
 const user = {
@@ -33,3 +35,5 @@ console.log(numberCount(4, 3, 3, 5, 6))
 // This is how we use implicit return. It is often used with arrow function in one line.
 // NOTE: While returning complex things like objects, arrays, etc we enclose them in () see above in
 // subtractTwo we simply return the n1-n2 but it is always a good practice to use () while implicit return.
+
+// --- SEE YOU IN THE NEXT ONE, BYE ---
