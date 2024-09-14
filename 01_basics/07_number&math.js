@@ -1,4 +1,4 @@
-// UNCOMMENT THE SPECIFIC MULTILINE COMMENT TO SEE THE OUTPUT, BY DEFAULT LAST ONE RUNS.
+// NOTE: Uncomment The Specific Multi-Line Comment To See The Output, By Default Last One Runs.
 
 // SOME POINTS TO BE REMEMBERED:
 // Like String Numbers can also be defined as given below
