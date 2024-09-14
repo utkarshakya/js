@@ -24,4 +24,6 @@ switch(day){
     default:
         console.log('Not A Week Day')
 }
-// This is how simply switch case works. Change the value of day and see the output.
+// Try different values of day and see the output. This is how simply switch case works.
+// if-else and Switch are know as Conditional statements, know more check the link below:
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Control_flow_and_error_handling#conditional_statements
