@@ -1,4 +1,4 @@
-// Uncomment this part to see output.
+// NOTE: Uncomment The Below Multi-Line Comment To See The Output.
 
 /*
 let name = "Access";
