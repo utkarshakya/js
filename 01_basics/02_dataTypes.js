@@ -16,7 +16,7 @@
 
 let age = 23; // Number Data Type
 let firstName = "Ping"; // String Data Type
-let isLogedIn = true; // Boolean Data Type
+let isLoggedIn = true; // Boolean Data Type
 let state; // Undefined
 let value = null; // Standalone Value Or A null Data Type
 let bigNumber = 32434n; // We use n at the end of number, it will be treated as bigInt explicitly
@@ -29,7 +29,7 @@ console.log("Does id1 is equal to id2 : " + (id1 == id2));
 console.table([
   typeof age,
   typeof firstName,
-  typeof isLogedIn,
+  typeof isLoggedIn,
   typeof state,
   typeof value,
   typeof bigNumber,
