@@ -15,10 +15,10 @@ console.log(`Hello My Name Is ${name} And I Am ${age} Years Old.`);
 */
 
 // There is one property of string we can use (note this is property not a method).
-let string = "HolaAmigo";
+let string = "Hola-Amigo";
 console.log(`\nLength of ${string} = ${string.length}`);
 
-// +++++++++++++++ SOEM IMPORTANT METHODS OF STRINGS +++++++++++++++++
+// --- --- --- SOME IMPORTANT METHODS OF STRINGS --- --- ---
 
 const phrase = new String("-Hola-Amigo-!"); // This one of the way to define a string using new keyword.
 // This will treat the string as an object and provide some additional functionalities.
@@ -26,7 +26,7 @@ const phrase = new String("-Hola-Amigo-!"); // This one of the way to define a s
 console.log("\n--------- ORIGINAL STRING ---------");
 console.log(phrase);
 
-// ******* THERE ARE MANY METHOD OF STRING THAT WE CAN USE HERE ARE SOME *******
+// --- THERE ARE MANY METHOD OF STRING THAT WE CAN USE, HERE ARE SOME ---
 
 console.log("\n--------- LOWER CASE ---------");
 console.log(phrase.toLowerCase());
