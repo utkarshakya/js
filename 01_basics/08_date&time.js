@@ -1,4 +1,4 @@
-// Uncomment The Specific Multi-Line Comment Section To See The Output. By Default The Last One Runs.
+// NOTE: Uncomment The Specific Multi-Line Comment To See The Output, By Default Last One Runs.
 
 // NOTE: Javascript TC39 is working on Temporal, a new Date/Time API.
 // TC39 working to make it a global object but for now Date object is used, in future it change.
