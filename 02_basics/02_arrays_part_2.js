@@ -55,5 +55,3 @@ console.log(Array.of("Amigo", 34, 381, "Galactus", num1, num2));
 // Learn More About Instance Methods/Properties And Static Methods/Properties
 // From This Stackoverflow Answer. This Will Make Things Clear, Link Is Give Below:
 // https://stackoverflow.com/questions/50251894/javascript-static-method-vs-instance-method
-
-// --- NOW WE HAVE DONE WITH ARRAYS HERE ---

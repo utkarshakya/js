@@ -45,5 +45,3 @@ console.log(enemy);
 // WHILE DEALING WITH API, WE GET RESPONSE IN OBJECTS OR ARRAY OF OBJECTS (KNOWN AS JSON).
 // LIKE THIS --> {"name": "utkarsh", "course": "js"} AND THIS --> [{..}, {..}, {..}].
 // WE WILL LEARN ABOUT API'S LATER IN DETAILS, SO DON'T WORRY NOW.
-
-// --- WE HAVE DONE WITH OBJECTS HERE ---

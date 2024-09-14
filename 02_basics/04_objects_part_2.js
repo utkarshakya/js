@@ -38,6 +38,3 @@ const obj3 = {...obj1, ...obj2};
 console.log(obj3);
 // This spread operator also do the same thing, we have talked about it in arrays.
 // And we don't use assign() method in most cases, spread syntax is used mostly.
-
-
-// --- WE HAVE DONE WITH PART, SEE YOU IN THE NEXT ONE ---

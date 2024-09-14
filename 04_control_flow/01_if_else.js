@@ -26,6 +26,3 @@ else if(!debitCard){
 else{
     console.log(`To Get Start Log In And Fill The Details`)
 }
-
-// Switch Case also work in the same way as we do in other high level language.
-// --- WE WILL SEE THAT IN THE NEXT ONE, BYE BYE ---

@@ -16,5 +16,3 @@
     console.log(`Hello, ${name}`)
 })('King')
 // That's it, we can also give arguments and parameters as given above.
-
-// --- THAT'S IT WE'LL SEE YOU IN THE NEXT ONE, BYE ---

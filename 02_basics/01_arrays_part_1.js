@@ -102,6 +102,3 @@ console.log(heros);
 // See the example output to make it clear.
 
 // REMEMBER splice() METHOD AFFECT THE ORIGINAL ARRAY BUT SLICE() DOESN'T.
-
-
-// --- WE HAVE DONE WITH THE METHODS IN ARRAY, THIS IS A PART 1 WE'LL SEE YOU IN THE NEXT ONE ---

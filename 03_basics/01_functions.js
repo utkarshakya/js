@@ -57,5 +57,3 @@ function returnSecondValue(getArrayOrObject) {
 }
 console.log(returnSecondValue({ 0: 'Nagraj', 1: 'Chandaal', 2: 'Hemant', 3: 'Pisachni' }))
 console.log(returnSecondValue(['Hanuman', 'Ashwatthama', 'Vibhishana', 'Parashurama']))
-
-// --- WE WILL LEARN SCOPE IN NEXT FILE, BYE ---

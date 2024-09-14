@@ -94,4 +94,4 @@ console.log(newString.trimEnd());
 // trimStart() will remove leading white spaces and line terminators only.
 // trimEnd() will remove trailing white spaces and line terminators only.
 
-// LEARN MORE ABOUT STRING METHODS FROM MDN DOCS --> https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String#instance_methods
+// LEARN MORE FROM HERE: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String#instance_methods

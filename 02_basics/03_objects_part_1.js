@@ -55,5 +55,3 @@ console.log(user);
 user.greeting();
 // Since greeting is a function so we need to call it while accessing.
 // See in the output this will give the simply runs the function.
-
-// --- WE HAVE DONE WITH PART, SEE YOU IN THE NEXT PART ---

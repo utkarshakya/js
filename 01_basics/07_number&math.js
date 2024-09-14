@@ -105,5 +105,3 @@ console.log(`\n--- Get A Random Number Between 5 To 10 ---`);
 console.log(Math.floor(Math.random() * (max - min + 1)) + min);
 
 // NOTE: To Get Floating-Point Numbers Use This --> (Math.random()*(max-min)+min)
-
-// THAT'S IT WE HAVE DONE WITH THE MATHS AND NUMBER HERE.
