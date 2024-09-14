@@ -9,7 +9,7 @@ let accountState; // this will have an undefined value. See the output
 
 // accountID = 3323 // this is not possible because this one is constant variable.
 accountEmail = "king@gmail.com";
-accountPassword = "1221agrs";
+accountPassword = "1221args";
 accountCity = "Bangaluru";
 
 console.log(accountID);
