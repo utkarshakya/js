@@ -1,3 +1,5 @@
+// NOTE: Uncomment The Specific Multi-Line Comment To See The Output, By Default Last One Runs.
+
 // --- for each ---
 const coding = ["java", "c", "py", "js", "html"];
 
