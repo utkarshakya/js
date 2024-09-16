@@ -16,3 +16,22 @@
 - Scope
 - Arrow Function
 - IIFE
+## 04_control_flow
+### Conditional Statements
+- If-Else
+- Switch Case
+### Looping Statements
+- For Loop
+- While Loop
+- Do While Loop
+### Important Concepts
+- Truthy And Falsy
+- Nullish Coalescing Operator
+### Looping Arrays And More
+- For of Loop
+- For in Loop
+- For each Loop
+    #### Some Important Methods
+    - Filter
+    - Map
+    - Reduce
