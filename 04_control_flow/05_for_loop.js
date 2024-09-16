@@ -20,7 +20,7 @@ for(let i = 1; i <= 10; i++){
     }
     else if(i == 2){
         console.log("Detected 2, We'll continue from here.");
-        continue;
+        continue; // Continue to next iteration
     }
     else{
         console.log(`Got ${i}`);
