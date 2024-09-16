@@ -1,4 +1,4 @@
-// --- --- Filter --- ---
+// --- --- filter() Method --- ---
 const num = [1, 3, 4, 5, 6];
 // console.log(num.forEach((e) => {return e+3;}));
 // If you try to run thr above line of code you'll get undefined, that means we can not return

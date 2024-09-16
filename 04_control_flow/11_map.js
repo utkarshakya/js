@@ -1,4 +1,4 @@
-// --- --- Map --- ---
+// --- --- map() Method --- ---
 const arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 0];
 let result = arr.filter(e => e * 10); // this e*10 is true for all numbers but false when we get 0, see it in output.
 console.log(result);
