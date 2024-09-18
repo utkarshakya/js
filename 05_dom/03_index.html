@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document Object Modal</title>
+</head>
+
+<body style="background-color: #222; color: beige;"></body>
+<!-- IN THIS FILE WE HAVE DISCUSSED HOW TO CREATE A NEW ELEMENT -->
+<script>
+    let div = document.createElement('div')
+    div.className = "main";
+    div.id = "hU2";
+    div.style.backgroundColor = "yellow";
+    div.style.color = "black";
+    div.style.padding = "10px";
+    div.setAttribute("width", "80vw");
+    // div.innerText = "Hello, I Am div Created Through DOM By Utkarsh Shakya";
+    const textNode = document.createTextNode("Hello, I Am div Created Through DOM By Utkarsh Shakya");
+    div.appendChild(textNode);
+    console.log(div);
+    // Run The File And See The Output In The Browser Console. Prefer Chrome.
+
+    // NOW, As you can see we don't get anything on the body this is because
+    // the div is created in the memory but not added or attached to the body.
+    // Uncomment The below line and see the magic. :)
+    // document.appendChild(div);
+</script>
+</html>
