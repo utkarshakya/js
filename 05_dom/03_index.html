@@ -15,8 +15,8 @@
     div.id = "hU2";
     div.style.backgroundColor = "yellow";
     div.style.color = "black";
-    div.style.padding = "10px";
-    div.setAttribute("width", "80vw");
+    div.style.padding = "30px";
+    div.setAttribute("title", "DOM");
     // div.innerText = "Hello, I Am div Created Through DOM By Utkarsh Shakya";
     const textNode = document.createTextNode("Hello, I Am div Created Through DOM By Utkarsh Shakya");
     div.appendChild(textNode);
@@ -26,6 +26,11 @@
     // Now, As you can see we don't get anything on the body of our page is because
     // the div is created in the local memory of browser and is not attached to the body.
     // Uncomment The below line and see the magic. :)
-    // document.appendChild(div);
+    // document.body.appendChild(div);
+
+    // Have you noticed we created textNode with createTextNode() method and then append it in div.
+    // Why did we do this, I mean we can use simply innerText to add text in div? Yes, we definitely does
+    // but innerText work in little complex way, it first search and fetch the text then overwrite it.
+    // And using appendChild() it simply overwrite. It is just for optimization.
 </script>
 </html>
