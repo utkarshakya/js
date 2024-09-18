@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document Object Modal</title>
+</head>
+
+<body style="background-color: #222; color: beige;">
+    <div class="parent">
+        <div class="day">Monday</div>
+        <div class="day">Tuesday</div>
+        <div class="day">Wednesday</div>
+        <div class="day">Thursday</div>
+        <div class="day">Friday</div>
+        <div class="day">Saturday</div>
+        <div class="day">Sunday</div>
+    </div>
+
+    <!-- // IN THIS WE HAVE DISCUSSED NODE PROPERTIES (CHILD AND PARENT) | CHECK index.md FILE. -->
+    <script>
+        // NOTE: Run The File And See The Output In The Browser Console. Prefer Chrome.
+        let parent = document.querySelector('.parent'); // This will return div.parent element (div.parent means div with class parent).
+        console.log("parent");
+        console.log(parent);
+
+        console.log("\nparent.children");
+        console.log(parent.children);
+
+        console.log("\nparent.children[5]");
+        console.log(parent.children[5]);
+
+        let child = parent.children[0]; // This will give Monday div element.
+        console.log("\nchild.parentElement")
+        console.log(child.parentElement);
+
+        console.log("\nparent.childNodes");
+        console.log(parent.childNodes);
+
+        console.log("\ndocument.querySelectorAll('.day')");
+        console.log(document.querySelectorAll('.day'));
+
+        // There are more properties like firstChild and lastChild etc.
+        // Check Them Here: https://developer.mozilla.org/en-US/docs/Web/API/Node#instance_properties
+        // You Can Also Check Methods Here: https://developer.mozilla.org/en-US/docs/Web/API/Node#instance_methods
+
+        // REMEMBER DOM IS REALLY IMPORTANT, SO DO CHECK THE PROPERTIES AND METHODS (DON'T GO IN DETAILS JUST THE OVERVIEW).
+    </script>
+</body>
+
+</html>
