@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document Object Modal</title>
+</head>
+
+<body style="background-color: #222; color: beige;">
+    <ul class="language">
+        <li>Javascript</li> 
+        <!-- Note: We only have one element here but if you run get more because we added one using DOM -->
+    </ul>
+</body>
+<!-- IN THIS FILE WE HAVE DISCUSSED HOW TO EDIT AND REMOVE ELEMENTS -->
+<script>
+    function addLanguage(name) {
+        const li = document.createElement('li');
+        li.innerText = `${name}`;
+        document.querySelector('.language').appendChild(li);
+
+    }
+    // Above we created a function to add a li element.
+    // Below lines execute the function and element get added.
+    addLanguage('Python');
+    addLanguage('php');
+    addLanguage('java');
+
+    function addLanguageOptimized(name){
+        const li = document.createElement('li');
+        li.appendChild(document.createTextNode(name));
+        document.querySelector('.language').appendChild(li);
+    }
+    // Again I have told you in the previous file, that using innerHTML or innerText is bit complex for system
+    // because it traverse all element and then add the value. So that's why this addLanguageOptimized() function
+    // is more optimized because we use createTextNode() method here which can be directly added at the end of element.
+    // Although both works file but when dealing with big data optimization needed.
+
+    // --- EDIT ---
+    const third_li = document.querySelector('li:nth-child(3)') // this will select the 3 li in the whole document.
+    const new_li = document.createElement('li');
+    new_li.appendChild(document.createTextNode("typescript"));
+    third_li.replaceWith(new_li);
+
+    //  --- REMOVE ---
+    const last_li = document.querySelector('li:last-child');
+    last_li.remove();
+
+    // THAT'S IT WE LEARN MORE AS WE MAKE PROJECTS.
+</script>
+</html>
