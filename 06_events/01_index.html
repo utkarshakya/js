@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 50px;
+            padding: 100px 20px 0px 20px;
+        }
+
+        #images {
+            list-style-type: none;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 5px;
+        }
+
+        li {
+            display: flex;
+        }
+
+        img {
+            max-width: 250px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Images Of The Day</h2>
+    <ul id="images">
+        <li><img src="https://images.pexels.com/photos/1152359/pexels-photo-1152359.jpeg?auto=compress&cs=tinysrgb&w=600"
+                alt="summer" id="summer"></li>
+        <li><img src="https://images.pexels.com/photos/39811/pexels-photo-39811.jpeg?auto=compress&cs=tinysrgb&w=600"
+                alt="rain" id="rain"></li>
+        <li><img src="https://images.pexels.com/photos/158827/field-corn-air-frisch-158827.jpeg?auto=compress&cs=tinysrgb&w=600"
+                alt="sky" id="sky"></li>
+        <li><img src="https://images.pexels.com/photos/1169754/pexels-photo-1169754.jpeg?auto=compress&cs=tinysrgb&w=600"
+                alt="space" id="space"></li>
+    </ul>
+</body>
+<script>
+    // Uncomment The Specific Multiline Comment To See The Output, Last One Runs By Default.
+
+    const images = document.getElementById('images');
+    const rain = document.getElementById('rain');
+
+    /*
+    rain.onclick = function () {
+        alert("It's Raining");
+    }
+    
+    // The above onclick property as its name suggest invoked the function when you click on rain image and alert runs which shows a message.
+    // Now, the onclick works fine and we can also use the onclick as an attribute in the img tag to do the same but both are not good practice to do so.
+    // Methods like attachEvent() and on() (used in jQuery) are also not used now days.
+    */
+
+    /*
+    // Using addEventListener() is seem professional and a good practice, see below.
+
+    rain.addEventListener('click', function(e){
+        console.log(e.target);
+        alert("It's Raining");
+    }, false)
+    
+    // Takes three arguments:
+    // 1. type - means what type of event you want to listen.
+    // 2. listen - it is basically a call back function which get invoked when event performed, it takes one argument know as event object.
+    // 3. false by default, it used to control the event propagation. Discussed Below
+    */
+
+
+    // --- --- EVENT PROPAGATION [START HERE] --- ---
+
+    /*
+    // --- 1. Event Bubbling (By default) ---
+    images.addEventListener('click', (e) => {
+        console.log("You Click In The Unordered List");
+    })
+    rain.addEventListener('click', (e) => {
+        console.log("It's Raining");
+    })
+    // Now, go to the browser console and try clicking the images and see the output.
+    // You may Notice that when you click on the rain image then the 'It's Raining' printed and after that you can also see the Unordered List message.
+    // This because rain is the child of ul tag so when on img you also click on ul and it goes from inside-out means from child to the parent to the parent as so on.
+    // And this is called Event Bubbling, as bubble goes from bottom to up.
+    */
+
+    /*
+    // --- 2. Event Capturing ---
+    images.addEventListener('click', (e) => {
+        console.log("You Click In The Unordered List");
+    }, true)
+    rain.addEventListener('click', (e) => {
+        console.log("It's Raining");
+    }, true)
+    // Above, I do the same but just added true. Now, see the difference in the console.
+    // Now, you can see it goes from outside-in. That's it this what we use the third element for.
+    */
+
+    // --- --- EVENT PROPAGATION [END HERE] --- ---
+
+    // Now We Can Also Prevent Event Propagation, See Below Example.
+    images.addEventListener('click', (e) => {
+        console.log("You Click In The Unordered List");
+    })
+    rain.addEventListener('click', (e) => {
+        e.stopPropagation() // This will stop the propagation, click and see by yourself.
+        console.log("It's Raining");
+    })
+
+
+    // Some Important Events Types and Methods:
+    // type, timestamp, preventDefault(), target, toElement, srcElement, currentTarget,
+    // clientX, clientY, screenX, screenY, altkey, ctrlkey, shiftkey, keyCode, etc.
+    // Check The Use Case Example On MDN.
+</script>
+
+</html>
