@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 50px;
+            padding: 100px 20px 0px 20px;
+        }
+
+        div {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            gap: 10px;
+        }
+
+        #images {
+            list-style-type: none;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 5px;
+        }
+
+        li {
+            display: flex;
+        }
+
+        img {
+            max-width: 250px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <h2>Images Of The Day</h2>
+        <p>Here is an exercise, try clicking on any image</p>
+    </div>
+    <ul id="images">
+        <li><img src="https://images.pexels.com/photos/1152359/pexels-photo-1152359.jpeg?auto=compress&cs=tinysrgb&w=600"
+                alt="summer" id="summer"></li>
+        <li><img src="https://images.pexels.com/photos/39811/pexels-photo-39811.jpeg?auto=compress&cs=tinysrgb&w=600"
+                alt="rain" id="rain"></li>
+        <li><img src="https://images.pexels.com/photos/158827/field-corn-air-frisch-158827.jpeg?auto=compress&cs=tinysrgb&w=600"
+                alt="sky" id="sky"></li>
+        <li><img src="https://images.pexels.com/photos/1169754/pexels-photo-1169754.jpeg?auto=compress&cs=tinysrgb&w=600"
+                alt="space" id="space"></li>
+    </ul>
+</body>
+
+<script>
+    const images = document.querySelector('#images');
+    images.addEventListener('click', (e) => {
+        if (e.target.tagName === 'IMG') {
+            e.target.parentElement.remove();
+        }
+    })
+    // Here, tagName is property which give the tag name of the selected element.
+    // parentElement is also a property which gives the parent element of the selected element.
+    // And remove() is a method to remove the selected element.
+
+    // Check Out The Below Example To Know More:
+    // target --> https://developer.mozilla.org/en-US/docs/Web/API/Event/target#example
+    // tagName --> https://developer.mozilla.org/en-US/docs/Web/API/Element/tagName#examples
+    // remove() --> https://developer.mozilla.org/en-US/docs/Web/API/Element/remove#examples
+</script>
+
+</html>
