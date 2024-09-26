@@ -40,3 +40,5 @@
 - Element Selector
 - Add Elements
 - Edit And Remove Elements
+## 06_events
+- Basic Events
