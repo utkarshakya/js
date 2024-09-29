@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>setInterval() Function</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            padding: 30px 50px;
+            background-color: #212121;
+            color: #ffffff;
+        }
+
+        #heading {
+            font-size: larger;
+        }
+
+        #stopButton,
+        #startButton {
+            width: fit-content;
+            font-size: large;
+            padding: 10px 30px;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="heading">See The Console</div>
+    <button id="startButton">Start</button>
+    <button id="stopButton">Stop</button>
+
+    <script>
+        const startButton = document.querySelector('#startButton');
+        const stopButton = document.querySelector('#stopButton');
+        const heading = document.querySelector('#heading');
+
+        let printInConsole;
+
+        startButton.addEventListener('click', () => {
+            printInConsole = setInterval(() => {
+            console.log(`utkarshakya ${Date.now()}`);
+        }, 1000)
+        })
+
+        stopButton.addEventListener('click', (e) => {
+            clearInterval(printInConsole);
+        })
+        // Run and see the output in the console, you will see that this interval do a task continuously
+        // after every second (since we specified 1s in it) till infinite until we press the stop button which
+        // clear the interval. So yeah this is the setInterval and it is also a Asynchronous.
+    </script>
+</body>
+
+</html>
