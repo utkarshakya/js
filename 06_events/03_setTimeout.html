@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>setTimeout() Function</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body{
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            padding: 30px 50px;
+            background-color: #212121;
+            color: #ffffff;
+        }
+
+        #heading{
+            font-size: larger;
+        }
+
+        #stopButton{
+            width: fit-content;
+            font-size: large;
+            padding: 10px 30px;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div id="heading">Iron Fist Is Stronger Than Daredevil</div>
+    <!-- <button id="startButton">Start</button> -->
+    <button id="stopButton">Stop</button>
+
+    <script>
+        // const startButton = document.querySelector('#startButton');
+        const stopButton = document.querySelector('#stopButton');
+        const heading = document.querySelector('#heading');
+
+        const changeHeading = setTimeout(() => {
+            heading.innerHTML = `Daredevil Has Some Relation With She-Hulk`;
+        }, 4000)
+        // This will change the heading after 4 seconds
+
+        stopButton.addEventListener('click', (e) => {
+            clearTimeout(changeHeading);
+        })
+        // But this will clear the timeout if you click on stop button.
+        // Run and see, if you click on the stop button the heading will not change than.
+
+        // NOTE: Asynchronous program is very simple, don't make it haua, I'll explain it to you.
+        // Ok, So asynchronous program is where one function did not wait for the response of the previous one and get executed.
+        // For example, above that setTimeout function will respond after 4 seconds right, but the program did not wait for
+        // that and reads the next line which listen to stop button. This is asynchronous program and setTimeout is asynchronous function.
+    </script>
+</body>
+</html>
