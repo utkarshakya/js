@@ -42,3 +42,5 @@
 - Edit And Remove Elements
 ## 06_events
 - Basic Events
+- Event Propagation
+- setTimeout & setIntervel
