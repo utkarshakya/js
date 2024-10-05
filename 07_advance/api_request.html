@@ -1,20 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>API</title>
 </head>
+
 <body style="background-color: #212121;">
+    0 | UNSENT | Client has been created. open() not called yet.
+    1 | OPENED | open() has been called.
+    2 | HEADERS_RECEIVED | send() has been called, and headers and status are available.
+    3 | LOADING | Downloading; responseText holds partial data.
+    4 | DONE | The operation is complete.
+
     <script>
         // AN API IS LIKE A TALKING SYSTEM BETWEEN TWO SOFTWARE APPLICATIONS.
-        
+
         const requestURL = 'https://api.github.com/users/utkarshakya'
         const xhr = new XMLHttpRequest()
 
-        xhr.onreadystatechange = function(){
+        xhr.onreadystatechange = function () { // this will executed whenever the readyState changes. It basically track the readyState
             console.log(xhr.readyState)
-            if(xhr.readyState === 4){
+            if (xhr.readyState === 4) {
                 let data = this.responseText // here we get the response in string (mostly).
                 data = JSON.parse(data) // convert to json object.
                 console.log(data);
@@ -23,9 +31,10 @@
                 // See the console, this is how we use XMLHttpRequest()
             }
         }
-
+        // See above in the body about different readyState.
         xhr.open('GET', requestURL) // this will not send the request.
-        xhr.send()
+        xhr.send() // this will send the request.
     </script>
 </body>
+
 </html>
