@@ -44,3 +44,7 @@
 - Basic Events
 - Event Propagation
 - setTimeout & setIntervel
+## 07_advance
+- API Request
+- Promise
+- Fetch
